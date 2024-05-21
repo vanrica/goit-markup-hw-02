@@ -118,20 +118,21 @@ button:focus {
 
 /* TEAM */
 
-.team-section-name {
-    background: #f4f4fd;
+.team-section {
+    background-color: #f4f4fd;
 }
 
 .team-member-list-item {
-    background: #fff;
+    background-color: #ffffff;
 }
 
-.team-section-header {
+.team-section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
