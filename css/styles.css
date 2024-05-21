@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #ffffff;
     color: #434455;
 }
@@ -17,10 +17,10 @@ a {
 /* NAV BAR */
 
 .page-logo {
-    font-family: "Raleway", "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -28,11 +28,6 @@ a {
 
 .logo-text-navy {
     color: #2e2f42;
-}
-
-.menu {
-    width: 261px;
-    height: 24px;
 }
 
 .menu-link {
@@ -52,6 +47,7 @@ a {
 .company-address-link {
     font-weight: 400;
     font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -71,7 +67,7 @@ a {
 .main-header {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
@@ -79,12 +75,12 @@ a {
 
 button {
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
 
@@ -95,7 +91,7 @@ button:focus {
 
 /* VALUES */
 
-.values-header {
+h2 .values-section-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -141,11 +137,12 @@ button:focus {
     background: #ffffff;
 }
 
-.portfolio-header {
+h2 .portfolio-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
@@ -172,6 +169,8 @@ button:focus {
 
 .logo-text-footer {
     color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
 }
 
 .footer-paragraph {
