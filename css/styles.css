@@ -44,10 +44,13 @@ a {
     color: #404bbf;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .company-address-link {
     font-weight: 400;
     font-size: 16px;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -56,7 +59,6 @@ a {
 .company-address-link:focus {
     color: #404bbf;
 }
-
 
 /* HERO */
 
@@ -91,7 +93,16 @@ button:focus {
 
 /* VALUES */
 
-h2 .values-section-header {
+.values-section-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: none;
+}
+
+.values-list-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -107,12 +118,21 @@ h2 .values-section-header {
 
 /* TEAM */
 
-.team-section {
+.team-section-name {
     background: #f4f4fd;
 }
 
 .team-member-list-item {
     background: #fff;
+}
+
+.team-section-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .team-member-name {
@@ -137,7 +157,7 @@ h2 .values-section-header {
     background: #ffffff;
 }
 
-h2 .portfolio-header {
+.portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
